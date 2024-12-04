@@ -1,0 +1,134 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f3ef;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Encabezados */
+h1 {
+    color: #e67e22;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #e67e22;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Alertas */
+.alert {
+    background-color: #ffe9d6;
+    color: #d35400;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Formularios */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #e67e22;
+}
+
+form input[type="text"],
+form input[type="date"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+form button[type="submit"],
+form button[type="button"] {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 10px;
+    background-color: #e67e22;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover,
+form button[type="button"]:hover {
+    background-color: #d35400;
+}
+
+/* Preguntas dinámicas */
+.question {
+    background-color: #fdf6ec;
+    padding: 15px;
+    border: 1px solid #e67e22;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.question label {
+    display: block;
+    margin-bottom: 5px;
+    color: #d35400;
+    font-weight: bold;
+}
+
+#questionsContainer {
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #e67e22;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d35400;
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    form button[type="submit"],
+    form button[type="button"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
